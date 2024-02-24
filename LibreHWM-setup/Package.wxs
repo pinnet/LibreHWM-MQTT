@@ -1,0 +1,9 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Name="LibreHWM_setup" Manufacturer="TODO Manufacturer" Version="1.0.0.0" UpgradeCode="9f764ea0-2681-4b2f-8c03-fe72f25e1394">
+    <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+
+    <Feature Id="Main">
+      <ComponentGroupRef Id="ExampleComponents" />
+    </Feature>
+  </Package>
+</Wix>
